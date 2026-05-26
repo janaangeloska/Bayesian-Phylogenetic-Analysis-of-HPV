@@ -1,0 +1,37 @@
+Branch length outlier report — HPV-16 MCC tree
+=======================================================
+Total branches     : 1055
+  Terminal         : 528
+  Internal         : 527
+
+Terminal branch statistics:
+  Mean             : 19.3745 yrs
+  Std dev          : 21.3205 yrs
+  Median           : 13.9015 yrs
+  Warning (>2.0σ)  : 19 branches
+  Severe (>3.0σ)   : 23 branches
+
+Severe outliers (review these sequences):
+  KY549190_2008_07_01                      BL=221.8556  z=9.50  [TIP]
+  OP728372_2018_07_01                      BL=174.8028  z=7.29  [TIP]
+  internal_139325123139856                 BL=100.3878  z=7.17  [internal]
+  OP751587_2016_07_01                      BL=162.2899  z=6.70  [TIP]
+  OP751633_2016_07_01                      BL=155.5709  z=6.39  [TIP]
+  internal_139325123137696                 BL=90.1979  z=6.36  [internal]
+  internal_139325123138128                 BL=89.1244  z=6.28  [internal]
+  KX947283_2014_07_01                      BL=134.2273  z=5.39  [TIP]
+  internal_139325136031664                 BL=71.8154  z=4.90  [internal]
+  PX461754_2022_07_01                      BL=123.8743  z=4.90  [TIP]
+  internal_139325123140624                 BL=69.8159  z=4.74  [internal]
+  internal_139325123140816                 BL=69.6926  z=4.73  [internal]
+  internal_139325123137744                 BL=66.0848  z=4.45  [internal]
+  internal_139325123140384                 BL=64.8067  z=4.35  [internal]
+  internal_139325156673536                 BL=57.0514  z=3.73  [internal]
+  internal_139325129121408                 BL=55.4209  z=3.60  [internal]
+  internal_139325129128560                 BL=54.8303  z=3.56  [internal]
+  internal_139325123140912                 BL=54.5128  z=3.53  [internal]
+  OP728374_2018_07_01                      BL=89.1430  z=3.27  [TIP]
+  OP728436_2018_07_01                      BL=86.6466  z=3.16  [TIP]
+  internal_139325123134912                 BL=49.4997  z=3.13  [internal]
+  internal_139325123137648                 BL=49.1832  z=3.11  [internal]
+  internal_139325122211680                 BL=48.3660  z=3.04  [internal]
