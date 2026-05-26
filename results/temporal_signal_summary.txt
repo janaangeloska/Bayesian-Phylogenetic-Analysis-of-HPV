@@ -1,0 +1,13 @@
+Temporal signal summary
+=======================
+Tips used       : 528
+Year range      : 2001.5 – 2024.5
+Slope           : 9.955718e-01  (subs/site/year)
+Intercept       : -1706.305309
+Pearson r       : 0.9980
+R²              : 0.9961
+p-value         : 0.0000e+00
+Std error       : 2.731392e-03
+
+Interpretation  :
+  Good temporal signal — clock rate is likely data-driven.

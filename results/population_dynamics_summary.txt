@@ -1,0 +1,13 @@
+Population dynamics summary — HPV-16
+==================================================
+Tips              : 528
+Reference year    : 2024.5
+Root height (yrs) : 315.5
+TMRCA (calendar)  : 1709 AD
+Growth rate r     : 0.0230 yr^-1
+Ne at present     : 6812 (coalescent units)
+
+LTT interpretation:
+  - Divergence from Yule baseline after ~1950 suggests
+    sampling artefact (dense 2001-2024 window) rather than
+    genuine biological acceleration.
