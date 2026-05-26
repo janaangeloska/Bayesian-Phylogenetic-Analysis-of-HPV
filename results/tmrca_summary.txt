@@ -1,0 +1,33 @@
+TMRCA by clade — HPV-16 MCC tree
+==================================================
+Reference year: 2024.5
+
+Root (whole tree)
+  Tips          : 528
+  Height (yrs)  : 315.5  [227.8 – 415.1]
+  Calendar date : 1709 AD  [1609 – 1797 AD]
+  Posterior     : 1.000
+
+Major clade (>50%)
+  Tips          : 474
+  Height (yrs)  : 128.3  [91.7 – 168.0]
+  Calendar date : 1896 AD  [1856 – 1933 AD]
+  Posterior     : 1.000
+
+Mid clade (20-50%)
+  Tips          : 134
+  Height (yrs)  : 87.7  [63.7 – 113.9]
+  Calendar date : 1937 AD  [1911 – 1961 AD]
+  Posterior     : 0.987
+
+Small clade (5-20%)
+  Tips          : 28
+  Height (yrs)  : 77.9  [53.8 – 104.4]
+  Calendar date : 1947 AD  [1920 – 1971 AD]
+  Posterior     : 1.000
+
+Mini clade (<5%)
+  Tips          : 5
+  Height (yrs)  : 42.5  [25.3 – 61.8]
+  Calendar date : 1982 AD  [1963 – 1999 AD]
+  Posterior     : 1.000

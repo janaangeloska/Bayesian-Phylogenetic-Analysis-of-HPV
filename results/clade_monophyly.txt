@@ -1,0 +1,6 @@
+Monophyly test per lineage
+========================================
+  Lineage A: 511 tips | MRCA subtree size=528 | monophyletic=NO | intruders=17
+  Lineage B: 2 tips | MRCA subtree size=363 | monophyletic=NO | intruders=361
+  Lineage C: only 1 tip — skipped
+  Lineage D: 9 tips | MRCA subtree size=528 | monophyletic=NO | intruders=519
