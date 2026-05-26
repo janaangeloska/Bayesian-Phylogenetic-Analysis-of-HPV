@@ -156,7 +156,7 @@ def main():
         )
     summary = "\n".join(lines)
     print(summary)
-    (RESULTS / "tmrca_summary.txt").write_text(summary)
+    (RESULTS / "tmrca_summary.txt").write_text(summary, encoding="utf-8")
 
     # Plot HPD intervals
     fig, ax = plt.subplots(figsize=(9, 5))

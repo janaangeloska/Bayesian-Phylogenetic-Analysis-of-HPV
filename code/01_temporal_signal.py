@@ -115,7 +115,7 @@ def main():
         summary += "  No significant temporal signal — BEAST estimates may be prior-dominated.\n"
 
     print(summary)
-    (RESULTS / "temporal_signal_summary.txt").write_text(summary)
+    (RESULTS / "temporal_signal_summary.txt").write_text(summary, encoding="utf-8")
 
     # Plot
     fig, ax = plt.subplots(figsize=(8, 5))

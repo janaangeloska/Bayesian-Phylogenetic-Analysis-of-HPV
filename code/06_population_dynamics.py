@@ -175,7 +175,7 @@ def main():
             log_params = parse_beast_log(str(log_path), args.burnin)
             if "growthRate" in log_params:
                 growth_rate = log_params["growthRate"]["mean"]
-                print(f"  Growth rate from log: {growth_rate:.4f} yr⁻¹")
+                print(f"  Growth rate from log: {growth_rate:.4f} yr^-1")
             if "TreeHeight" in log_params:
                 root_height = log_params["TreeHeight"]["mean"]
         else:
@@ -191,7 +191,7 @@ def main():
                 where="post", color="#378ADD", linewidth=1.5, label="Observed LTT")
         ax.plot(yule_df["calendar_year"], yule_df["n_lineages_yule"],
                 "--", color="#D85A30", linewidth=1.2,
-                label=f"Expected Yule (r={growth_rate:.3f} yr⁻¹)")
+                label=f"Expected Yule (r={growth_rate:.3f} yr^-1)")
         ax.set_yscale(yscale)
         ax.set_xlabel("Calendar year")
         ax.set_ylabel("Number of lineages" + (" (log)" if yscale == "log" else ""))
@@ -213,7 +213,7 @@ def main():
     ax2.fill_between(ne_df["calendar_year"], ne_df["Ne_lo"], ne_df["Ne_hi"],
                      alpha=0.25, color="#378ADD", label="±40% uncertainty")
     ax2.plot(ne_df["calendar_year"], ne_df["Ne"], color="#378ADD", linewidth=2,
-             label=f"Ne(t), r={growth_rate:.3f} yr⁻¹")
+             label=f"Ne(t), r={growth_rate:.3f} yr^-1")
     ax2.set_xlabel("Calendar year")
     ax2.set_ylabel("Effective population size Ne(t)")
     ax2.set_title("HPV-16 effective population size — exponential coalescent")
@@ -243,7 +243,7 @@ def main():
         f"Reference year    : {ref_year}",
         f"Root height (yrs) : {root_height:.1f}",
         f"TMRCA (calendar)  : {ref_year - root_height:.0f} AD",
-        f"Growth rate r     : {growth_rate:.4f} yr⁻¹",
+        f"Growth rate r     : {growth_rate:.4f} yr^-1",
         f"Ne at present     : {epop:.0f} (coalescent units)",
         "",
         "LTT interpretation:",
@@ -258,10 +258,11 @@ def main():
             lines.append(
                 f"  {param:<20}: mean={vals['mean']:.4g}  "
                 f"95% CI=[{vals['lo']:.4g}, {vals['hi']:.4g}]"
+
             )
     summary = "\n".join(lines)
     print(summary)
-    (RESULTS / "population_dynamics_summary.txt").write_text(summary)
+    (RESULTS / "population_dynamics_summary.txt").write_text(summary, encoding="utf-8")
     print("Saved results/population_dynamics_summary.txt")
 
 

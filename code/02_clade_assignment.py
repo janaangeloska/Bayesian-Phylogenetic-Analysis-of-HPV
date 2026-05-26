@@ -154,7 +154,7 @@ def main():
 
     mono_text = test_monophyly(tree, assignments)
     print(mono_text)
-    (RESULTS / "clade_monophyly.txt").write_text(mono_text)
+    (RESULTS / "clade_monophyly.txt").write_text(mono_text, encoding="utf-8")
 
     # Colour tree by lineage
     for tip in tips:

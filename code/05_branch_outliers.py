@@ -130,7 +130,7 @@ def main():
 
     summary = "\n".join(summary_lines)
     print(summary)
-    (RESULTS / "branch_outlier_summary.txt").write_text(summary)
+    (RESULTS / "branch_outlier_summary.txt").write_text(summary, encoding="utf-8")
 
     # Plot: distribution + thresholds
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
