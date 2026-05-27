@@ -34,7 +34,7 @@ def parse_args():
     p.add_argument(
         "--tree",
         required=True,
-        help="Path to MCC nexus tree file, e.g. code/config2_fixed.tree",
+        help="Path to MCC nexus tree file",
     )
     return p.parse_args()
 

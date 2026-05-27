@@ -32,7 +32,7 @@ from Bio import Phylo
 RESULTS = Path("results")
 RESULTS.mkdir(exist_ok=True)
 
-# Known accession prefix → lineage mappings (extend as needed)
+# Known accession prefix → lineage mappings 
 # Based on published HPV-16 lineage reference sets
 LINEAGE_HINTS = {
     "A": ["K02718", "AF125673", "AY686581"],
